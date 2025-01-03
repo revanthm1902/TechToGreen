@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Tech to Green</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f5e9;
+            color: #2e7d32;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(to right, #a8e063, #56ab2f);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        section {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        h2 {
+            color: #388e3c;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #81c784;
+            display: inline-block;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 2rem;
+        }
+        .service-card {
+            background-color: #ffffff;
+            border: 1px solid #c8e6c9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(30% - 1rem);
+            margin: 0.5rem;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .service-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+        .service-card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 1rem;
+        }
+        .service-card h3 {
+            color: #388e3c;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            text-align: center;
+            background-color: #4caf50;
+            color: white;
+            padding: 1rem 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Our Services</h1>
+    <p>Innovative Solutions for a Sustainable Future</p>
+</header>
+
+<section>
+    <h2>What We Offer</h2>
+    <div class="services">
+        <div class="service-card">
+            <img src="agri-tech.jpg" alt="Agri-Tech">
+            <h3 id="agri-tech">Agri-Tech</h3>
+            <p>
+                Revolutionizing agriculture with smart technologies that enhance productivity, ensure sustainability,
+                and promote eco-friendly practices.
+            </p>
+        </div>
+        <div class="service-card">
+            <img src="smart-surveillance.jpg" alt="Smart Surveillance">
+            <h3 id="smart-surveillance">Smart Surveillance</h3>
+            <p>
+                Advanced monitoring systems that integrate AI and IoT to ensure security while respecting the environment.
+            </p>
+        </div>
+        <div class="service-card">
+            <img src="3d-mapping.jpg" alt="3D Mapping">
+            <h3 id="3d-mapping">3D Mapping</h3>
+            <p>
+                Cutting-edge 3D mapping solutions for urban planning, agriculture, and environmental monitoring.
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Tech to Green. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
